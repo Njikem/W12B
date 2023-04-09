@@ -1,5 +1,6 @@
 //create post success function
 function post_success(response){
+    let post_container = document.querySelector(`#post_container`);
     post_container.insertAdjacentHTML(`beforeend`, `<P>SUCCESS!</p>`);
 }
 
